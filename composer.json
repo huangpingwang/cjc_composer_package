@@ -1,0 +1,21 @@
+{
+    "name": "cjc/test",
+    "description": "This is my first composer package",
+    "type": "i",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "18680247042",
+            "email": "750493919@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "Cjc\\":"App/Aspect"
+        }
+    }
+}
